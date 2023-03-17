@@ -6,7 +6,7 @@ public class Main {
         Product p = new Product();
 
         int ans = p.Product(10,20);
-        int ans1 = p.Product(10,20,30);
+        int ans1 = p.Product(30,40,50);
         double ans2 = p.Product(5.5,7.5);
         System.out.println(ans+" "+ans1+" "+ans2);
     }
