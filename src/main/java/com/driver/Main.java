@@ -5,22 +5,22 @@ public class Main {
     public static void main(String[] args){
         Product p = new Product();
 
-        int ans = p.Product(10,20);
-        int ans1 = p.Product(30,40,50);
-        double ans2 = p.Product(5.5,7.5);
+        int ans = p.product(10,20);
+        int ans1 = p.product(30,40,50);
+        double ans2 = p.product(5.5,7.5);
         System.out.println(ans+" "+ans1+" "+ans2);
     }
 
     public static class Product {
-        public  int Product(int x, int y) {
+        public  int product(int x, int y) {
             return x * y;
         }
 
-        public  int Product(int x, int y, int z) {
+        public  int product(int x, int y, int z) {
             return x * y * z;
         }
 
-        public  double Product(double x, double y) {
+        public  double product(double x, double y) {
             return x * y;
         }
     }
